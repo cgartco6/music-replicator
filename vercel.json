@@ -4,7 +4,9 @@
     {
       "src": "api/index.py",
       "use": "@vercel/python",
-      "config": { "requirementsFile": "api/requirements.txt" }
+      "config": {
+        "requirementsFile": "api/requirements.txt"
+      }
     }
   ],
   "routes": [
